@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/http-foundation" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/lexer" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/dbal" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-php55" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/twig/twig" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/common" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/inflector" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/collections" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-php54" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/psr/log" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/cache" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/debug" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/pimple/pimple" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/http-kernel" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/composer" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/annotations" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-mbstring" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/routing" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/silex/silex" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/ircmaxell/password-compat" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/event-dispatcher" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/http-foundation" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/lexer" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/dbal" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-php55" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/twig/twig" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/common" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/inflector" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/collections" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-php54" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/psr/log" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/cache" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/debug" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/pimple/pimple" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/http-kernel" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/composer" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/doctrine/annotations" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/polyfill-mbstring" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/routing" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/silex/silex" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/ircmaxell/password-compat" />
+          <root url="file://P:/git/ppe/ppe1.6.8/StPaul sprint1/vendor/symfony/event-dispatcher" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/StPaul5/phpunit4-4.phar" />
+          <root url="phar://$MODULE_DIR$/StPaul5/composer.phar" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/StPaul5/phpunit4-4.phar" />
+          <root url="phar://$MODULE_DIR$/StPaul5/composer.phar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
