@@ -6,7 +6,8 @@ require_once __DIR__ . '/../../src/stpaul/Domain/Sejour.php';
  * Class SejourTest
  * @package stpaul\Domain
  */
-echo "coucou tu veux voir ma ... ?";
+
+
 class SejourTest extends \PHPUnit_Framework_TestCase
 {
     /**
