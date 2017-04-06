@@ -250,7 +250,7 @@ class Simul {
     }
 
     public function simulNbEnfPartant(){
-        return $this->getFamnbEnfant();
+        return $this->getSimulNbEnfPartant();
     }
 
     public function simulReducQF(){
@@ -275,10 +275,21 @@ class Simul {
     }
 
     public function simulReducDepartMultiple(){
-
+        if ($this->simulNbEnfPartant() >= 2){
+            return 0.1;
+        }
+        else {
+            return 0;
+        }
     }
 
     public function simulSousTotal(){
-        return ($this->getSejMBI())-(simulReducQF()*$this->getSejMBI())-(simulReducFamilleNombreuse*$this->getSejMBI());
+        return ($this->getSejMBI())-($this->simulReducQF()*$this->getSejMBI())-($this->simulReducFamilleNombreuse*$this->getSejMBI());
     }
+
+    public function simulTotalApresReduc(){
+        return ($this->simulSousTotal()-($this->simulSousTotal()*$this->simulReducDepartMultiple()))
+    }
+
+
 }
