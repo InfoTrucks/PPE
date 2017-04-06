@@ -250,8 +250,10 @@ class Simul {
     }
 
     public function simulNbEnfPartant(){
-        $this->famnbEnfant;
+        return $this->getFamnbEnfant();
     }
 
-
+    public function famQF(){
+        return $this->getFamQF();
+    }
 }
