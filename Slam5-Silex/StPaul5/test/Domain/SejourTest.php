@@ -41,7 +41,7 @@ class SejourTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($resultatAttendu, $resultatObserve);
 
     }
-    public function testSimul{
+    public function testSimul(){
 
     }
 }
