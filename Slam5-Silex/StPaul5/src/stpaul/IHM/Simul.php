@@ -255,12 +255,30 @@ class Simul {
 
     public function simulReducQF(){
         if ($this->getFamQF() < 500){
-            return 10;
+            return 0.1;
         }
         else {
             return 0;
         }
     }
 
-    public function
+    public function simulReducFamilleNombreuse(){
+        if ($this->getFamnbEnfant() == 2){
+            return 0.2;
+        }
+        elseif ($this->getFamnbEnfant() >= 3){
+            return 0.3;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    public function simulReducDepartMultiple(){
+
+    }
+
+    public function simulSousTotal(){
+        return ($this->getSejMBI())-(simulReducQF()*$this->getSejMBI())-(simulReducFamilleNombreuse*$this->getSejMBI());
+    }
 }
