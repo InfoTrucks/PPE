@@ -6,6 +6,8 @@ require_once __DIR__ . '/../../src/stpaul/Domain/Sejour.php';
  * Class SejourTest
  * @package stpaul\Domain
  */
+
+
 class SejourTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -39,5 +41,4 @@ class SejourTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($resultatAttendu, $resultatObserve);
 
     }
-
 }
