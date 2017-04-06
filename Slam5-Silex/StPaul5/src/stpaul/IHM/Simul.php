@@ -248,4 +248,10 @@ class Simul {
         $this->simulTotalApresPlafond = $simulTotalApresPlafond;
         $this->simulTotalDepartMultiple = $simulTotalDepartMultiple;
     }
+
+    public function simulNbEnfPartant(){
+        $this->famnbEnfant;
+    }
+
+
 }
