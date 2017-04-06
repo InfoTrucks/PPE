@@ -253,7 +253,14 @@ class Simul {
         return $this->getFamnbEnfant();
     }
 
-    public function famQF(){
-        return $this->getFamQF();
+    public function simulReducQF(){
+        if ($this->getFamQF() < 500){
+            return 10;
+        }
+        else {
+            return 0;
+        }
     }
+
+    public function
 }
